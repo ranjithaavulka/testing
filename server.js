@@ -12,3 +12,4 @@ app.use(bodyParser.json({ type: 'application/vnd.api+json' }));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static(__dirname + '/public'));
+console.log("pppppppppppppppppppppppppppppppppppppppp");//1st change
